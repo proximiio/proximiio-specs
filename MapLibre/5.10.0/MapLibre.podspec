@@ -15,4 +15,6 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '9.0'
 
     s.ios.vendored_frameworks = "**/Mapbox.xcframework"
+
+    s.dependency "MapboxMobileEvents", "0.10.2"
 end
